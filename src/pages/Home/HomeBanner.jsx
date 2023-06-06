@@ -13,7 +13,7 @@ import img6 from '../../assets/home/06.png';
 const HomeBanner = () => {
     return (
         <div className=''>
-        <Carousel>
+        <Carousel autoPlay infiniteLoop interval={3000} >
             <div>
                 <img className='lg:h-[90vh] object-fill' src={img1} />
             </div>
