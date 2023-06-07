@@ -4,6 +4,7 @@ import OrderOnline from './OrderOnline';
 import Intro from './Intro';
 import TrandingMenu from './TrandingMenu';
 import FeaturedItem from './FeaturedItem';
+import Testimonial from './Testimonial';
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Intro></Intro>
             <TrandingMenu></TrandingMenu>
             <FeaturedItem></FeaturedItem>
+            <Testimonial></Testimonial>
         </div>
     );
 };
