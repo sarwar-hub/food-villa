@@ -1,5 +1,4 @@
 import React from 'react';
-import './OrderOnline.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
@@ -14,7 +13,7 @@ import SectionTitle from '../../components/SectionTitle';
 
 const OrderOnline = () => {
     return (
-        <div className='mb-[100px] md:mx-10'>
+        <div className='mb-20 md:mx-10'>
             <SectionTitle
                 subHeading={"11:00am to 11:00pm"}
                 heading={"Order online"}

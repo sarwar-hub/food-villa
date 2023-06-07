@@ -2,6 +2,7 @@ import React from 'react';
 import HomeBanner from './HomeBanner';
 import OrderOnline from './OrderOnline';
 import Intro from './Intro';
+import TrandingMenu from './TrandingMenu';
 
 const Homepage = () => {
     return (
@@ -9,6 +10,7 @@ const Homepage = () => {
             <HomeBanner></HomeBanner>
             <OrderOnline></OrderOnline>
             <Intro></Intro>
+            <TrandingMenu></TrandingMenu>
         </div>
     );
 };
