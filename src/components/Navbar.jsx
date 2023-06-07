@@ -1,10 +1,11 @@
+import ActiveLink from "./ActiveLink";
 
 const navItems = [
-    <li className="hover:text-sec font-semibold transition"><a>HOME</a></li>,
-    <li className="hover:text-sec font-semibold transition"><a>CONTACT US</a></li>,
-    <li className="hover:text-sec font-semibold transition"><a>DASHBOARD</a></li>,
-    <li className="hover:text-sec font-semibold transition"><a>MENU</a></li>,
-    <li className="hover:text-sec font-semibold transition"><a>SHOP</a></li>,
+    <li className="hover:text-sec font-semibold transition"><ActiveLink to='/'>HOME</ActiveLink></li>,
+    <li className="hover:text-sec font-semibold transition"><ActiveLink to='/contact'>CONTACT US</ActiveLink></li>,
+    <li className="hover:text-sec font-semibold transition"><ActiveLink to='/dashboard'>DASHBOARD</ActiveLink></li>,
+    <li className="hover:text-sec font-semibold transition"><ActiveLink to='/menu'>MENU</ActiveLink></li>,
+    <li className="hover:text-sec font-semibold transition"><ActiveLink to='/shop'>SHOP</ActiveLink></li>,
 ];
 
 const Navbar = () => {
