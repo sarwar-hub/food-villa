@@ -1,10 +1,11 @@
 import React from 'react';
 import featuredItem from '../../assets/home/featured.jpg';
 import SectionTitle from '../../components/SectionTitle';
+import SecondaryBtn from '../../components/SecondaryBtn';
 
 const FeaturedItem = () => {
     return (
-        <div style={{ backgroundImage: `url(${featuredItem})` }} className='mb-20'>
+        <div style={{ backgroundImage: `url(${featuredItem})` }} className='mb-20 bg-fixed'>
             <div className='bg-dark/70 pt-10'>
                 <div className='text-light'>
                     <SectionTitle
@@ -20,6 +21,7 @@ const FeaturedItem = () => {
                         <h4 className='text-lg'>May 20, 2023</h4>
                         <h3 className='text-xl uppercase'>Where can I get some?</h3>
                         <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis delectus consectetur esse sunt nihil veniam facilis distinctio rem laboriosam sapiente tempora fuga, commodi dolorem, eaque aperiam sequi nostrum minima?</p>
+                        <SecondaryBtn>Read More</SecondaryBtn>
                     </div>
                 </div>
             </div>

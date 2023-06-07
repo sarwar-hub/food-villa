@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import MenuItem from '../../components/MenuItem';
 import SectionTitle from '../../components/SectionTitle';
+import SecondaryBtn from '../../components/SecondaryBtn';
+import PrimaryBtn from '../../components/PrimaryBtn';
 
 const TrandingMenu = () => {
     const [trandings, setTrandings] = useState([]);
@@ -34,7 +36,7 @@ const TrandingMenu = () => {
 
             {/* button */}
             <div className='flex justify-center my-5'>
-                <button className='rounded-xl border-b-2 px-5 p-2 text-dark transition hover:bg-dark/20'>View Full Menu</button>
+                <PrimaryBtn>View Full Menu</PrimaryBtn>            
             </div>
         </div>
     );
